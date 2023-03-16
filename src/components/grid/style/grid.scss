@@ -1,0 +1,9 @@
+@import "./var";
+
+$prefix: "p-grid";
+
+.#{$prefix} {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+}

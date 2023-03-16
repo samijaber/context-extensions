@@ -1,0 +1,19 @@
+@import "./var";
+
+$prefix: "p-grid-item";
+
+.#{$prefix} {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  &-text {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+}
